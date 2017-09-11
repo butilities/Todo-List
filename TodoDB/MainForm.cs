@@ -104,7 +104,8 @@ namespace TodoDB
             dataGridView1.Columns[0].Name = "Name"; // name
             dataGridView1.Columns[0].HeaderText = "Name"; // header text
             dataGridView1.Columns[0].DataPropertyName = "Name"; // field 
-            
+            dataGridView1.Columns[0].Width = 169;
+
             DataGridViewCheckBoxColumn c = new DataGridViewCheckBoxColumn();
             c.Name = "Done";
             c.HeaderText = "Done";
